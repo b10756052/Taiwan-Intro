@@ -1,0 +1,213 @@
+div.homepagebox {
+    // background-color: #9086CC;
+    #FoodCardTitle {
+        color: #392A93;
+        border-bottom: 4px #9086CC solid;
+        cursor: default;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    #carouselExampleIndicators {
+        margin-top: 4rem;
+        width: 60%;
+        height: 23%;
+        .carousel-indicators {
+            button {
+                width: 13px;
+                height: 13px;
+                margin: 5px 10px;
+                border-radius: 100%;
+            }
+        }
+        div.carousel-inner {
+            overflow: hidden;
+            // overflow: visible;
+            div.carousel-item {
+                transition: transform 2s ease, opacity .5s ease-out;
+                img {
+                    border-radius: 30px;
+                    margin-top: 0rem;
+                    width: 100%;
+                    height: 500px;
+                }
+            }
+        }
+    }
+    #cardsBox {
+        // background-color: red;
+        margin-top: 0px;
+        width: 90%;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        #cardsHeader {
+            margin-top: 0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            #cardsNavUl {
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                justify-content: center;
+                margin-right: 2rem;
+                li {
+                    padding: 0rem 2rem;
+                    list-style-type: none;
+                    font-size: 22px;
+                    font-weight: 600;
+                    button {
+                        width: 4.5rem;
+                        border: none;
+                        background-color: rgba(236, 154, 45, 0);
+                        color: #A9D3FF;
+                        padding-bottom: 3px;
+                    }
+                    button:hover {
+                        color: #9086CC;
+                        transition: all 0.3s ease-out;
+                    }
+                    button.active {
+                        color: #392A93;
+                        border-bottom: 3.5px #392A93 solid;
+                        pointer-events: none;
+                    }
+                }
+            }
+        }
+        #cardsBody {
+            margin-left: 2.9rem;
+            width: 100%;
+            height: 80vh;
+            // background-color: rgb(62, 207, 207);
+            margin-left: 12rem;
+            div {
+                // background-color: red;
+                width: 87.5%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+                position: absolute;
+                div.card {
+                    cursor: pointer;
+                    margin: 1rem;
+                    width: 400px;
+                    height: 250px;
+                    border-radius: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    p {
+                        margin-top: 1rem;
+                        transition: all 0.3s ease;
+                        z-index: 100;
+                        color: white;
+                        font-size: 1.5rem;
+                    }
+                    div.mask {
+                        transition: all 0.5s ease;
+                        border-radius: 30px;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                        img {
+                            top: 0;
+                            z-index: -1;
+                            border-radius: 30px;
+                            width: 100%;
+                            height: 100%;
+                            transition: all 0.35s ease-out;
+                        }
+                    }
+                }
+                div.card:hover {
+                    .cardP {
+                        font-size: 1.75rem;
+                        transition: all 0.35s ease-out;
+                    }
+                    .mask {
+                        background-color: rgba(0, 0, 0, 0);
+                        overflow: hidden;
+                        img {
+                            transform: scale(1.15, 1.15);
+                            transition: all 0.35s ease-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #Box {
+        margin: 11rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #homepage {
+        #carouselExampleIndicators {
+            width: 85%;
+            #carousel-inner {
+                height: 30vh;
+                div.carousel-item {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        #cardsBox {
+            // background-color: yellow;
+            // margin-bottom: 45rem;
+            height: 150vh;
+            #cardsHeader {
+                ul#cardsNavUl {
+                    display: flex;
+                    // background-color: red;
+                    margin: 0;
+                    padding: 0;
+                    li {
+                        padding: 0px;
+                        button {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            #cardsBody {
+                // background-color: #9086CC;
+                display: flex;
+                justify-content: center;
+                padding: 0;
+                margin: 0;
+                div {
+                    // background-color: blue;
+                    flex-direction: column;
+                    margin: 10px 1px;
+                    width: 300px;
+                    div.card {
+                        width: 300px;
+                        height: 200px;
+                    }
+                }
+            }
+            p#FoodCardTitle {
+                font-size: 20px;
+            }
+        }
+        #Box {
+            margin-top: 33rem;
+        }
+    }
+}

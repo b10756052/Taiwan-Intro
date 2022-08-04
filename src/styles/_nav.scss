@@ -1,0 +1,145 @@
+ #nav {
+     width: 100%;
+     display: flex;
+     background-color: #FEFEFE;
+     // background-color: #e65454;
+     align-items: center;
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+     div.homepageIconBox {
+         cursor: pointer;
+         margin-left: 1.5rem;
+         margin-right: 0.5rem;
+         margin-bottom: 5px;
+         display: flex;
+         align-items: center;
+         img {
+             width: 26px;
+             height: 50px;
+             margin-right: 3px;
+         }
+         div.homepageIconWord {
+             padding-left: 2.5px;
+             p {
+                 margin-bottom: 0rem;
+             }
+             .english {
+                 margin-top: 10px;
+                 color: #9086CC;
+                 font-weight: 600;
+                 font-size: 9px;
+             }
+             .chinese {
+                 margin-left: 7px;
+                 color: #392A93;
+                 font-weight: 600;
+                 font-size: 20px;
+             }
+         }
+     }
+     ul {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         li {
+             padding: 1rem 2.5rem;
+             margin-top: 1rem;
+             list-style-type: none;
+             font-weight: 600;
+             font-size: 20px;
+             color: #392A93;
+             a {
+                 color: #392A93;
+                 text-decoration: none;
+             }
+             button {
+                 background-color: rgba(0, 0, 0, 0);
+                 border: none;
+                 color: #392A93;
+                 font-weight: 600;
+             }
+         }
+     }
+     .searchForm {
+         margin-left: 13%;
+         margin-Top: 0.2rem;
+         input {
+             outline: none;
+             border: 2.5px #9086CC solid;
+             border-radius: 16px;
+             width: 270px;
+             height: 46px;
+             padding: 15px;
+         }
+         button {
+             margin-left: 0.75rem;
+             border: none;
+             background-color: rgba(255, 255, 255, 0);
+             img {
+                 margin-bottom: 0.3rem;
+                 width: 25px;
+                 height: 25px;
+             }
+         }
+     }
+     .modeSwitch {
+         display: flex;
+         margin-left: 25%;
+         align-items: center;
+         input {
+             margin: 0.1rem 0.4rem;
+             margin-top: 0.4rem;
+         }
+         .moon {
+             margin-left: 1px;
+         }
+     }
+ }
+ 
+ input[type=checkbox] {
+     cursor: pointer;
+     font-size: 25px;
+     height: 25px;
+ }
+ 
+ input[type=checkbox]:checked {
+     background-color: #9086CC;
+ }
+ 
+ @media screen and (max-width:1000px) {
+     .homepageIconBox {
+         //  margin-right: 70%;
+     }
+     #navbarNav.show {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         ul {
+             margin: 0;
+             padding: 0;
+             display: flex;
+             flex-direction: column;
+             li {
+                 margin: 0;
+             }
+         }
+         div.form-check.form-switch.modeSwitch {
+             margin: 0;
+             padding: 0;
+             height: 62px;
+         }
+         div.searchForm {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin: 0;
+             padding: 0;
+             button {
+                 margin-left: 5px;
+                 img {
+                     margin: 0;
+                 }
+             }
+         }
+     }
+ }

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+body.dark {
+    background-color: rgb(32, 30, 30);
+    .dropdown-toggle {
+        color: white;
+    }
+    input {
+        background-color: rgba(59, 54, 54, 0.1);
+    }
+    button {
+        color: white;
+    }
+    #nav {
+        background-color: rgb(32, 30, 30);
+        box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.1);
+        #eng {
+            color: #c7c2e2;
+        }
+        #chi {
+            color: #c7c2e2;
+        }
+        button,
+        #chi {
+            color: #9086CC;
+        }
+        input.serachInput {
+            border: 2.5px #78719c solid;
+        }
+    }
+    #footer {
+        background-color: #9086CC;
+        .english {
+            color: white;
+        }
+    }
+    #homepage {
+        #FoodCardTitle {
+            color: #b8b0e7;
+            border-bottom: 3.5px #9086CC solid;
+        }
+        #cardsBox {
+            #cardsHeader {
+                #cardsNavUl {
+                    li {
+                        button {
+                            color: white;
+                        }
+                        button:hover {
+                            color: #9086CC;
+                        }
+                        button.active {
+                            color: #b8b0e7;
+                            border-bottom: 3.5px #9086CC solid;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #wherePlay,
+    #whereEat {
+        color: #9086CC;
+        border-bottom: 4px #9086CC solid;
+    }
+}
+
+// play、food頁面
+.playbox,
+.foodbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-size: 22px;
+        color: #392A93;
+        font-weight: 600;
+        border-bottom: 4px #9086CC solid;
+        cursor: default;
+    }
+    .input-group {
+        margin-top: 0.5rem;
+        width: 20%;
+    }
+}
+
+.foodbox {
+    display: flex;
+    flex-direction: column;
+    div.input-group.mb-2 {
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        div.input-group {
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+            div {
+                ul.dropdown-menu {
+                    min-width: 8.7%;
+                    height: 200px;
+                    overflow: auto;
+                }
+            }
+        }
+    }
+    input {
+        width: 50vw;
+    }
+    #foodSearchInputBox {
+        display: flex;
+        #foodSearchInput {
+            margin-left: 0.1rem;
+            width: 237px;
+            border: 1px #9186cca1 solid;
+            border-radius: 0%;
+            border-bottom-left-radius: 8px;
+            border-top: none;
+            border-right: none;
+        }
+        button {
+            background-color: rgba(0, 0, 0, 0.0);
+            border-left: none;
+            border-right: 1px #9186cca1 solid;
+            border-top: none;
+            border-bottom: 1px #9186cca1 solid;
+            border-bottom-right-radius: 8px;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .playbox,
+    .foodbox {
+        .input-group {
+            // background-color: #392A93;
+            width: 60%
+        }
+    }
+}
+
+@import './nav';
+@import './footer';
+@import './homepage';
