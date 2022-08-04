@@ -291,7 +291,7 @@ const Homepage = ({
       </div>
       {/*display none*/}
       {/* class="card text-center" */}
-      <div id="cardsBox" style={{ marginTop: "2.5rem", marginBottom: "8rem" }}>
+      <div id="cardsBox" style={{ marginBottom: "15rem" }}>
         {/* class="card-header" */}
         <div id="cardsHeader">
           {/* class="nav nav-tabs card-header-tabs" */}
@@ -571,7 +571,7 @@ const Homepage = ({
       {/*吃東西cards*/}
       {/* class="card text-center" */}
 
-      <div id="cardsBox">
+      <div id="cardsBox" className="cardsBox">
         {/* class="card-header" */}
         <div id="cardsHeader">
           {/* class="nav nav-tabs card-header-tabs" */}

@@ -571,6 +571,8 @@ div.homepagebox #carouselExampleIndicators div.carousel-inner div.carousel-item 
 }
 
 div.homepagebox #cardsBox {
+  margin-top: 2.5rem;
+  margin-bottom: 10rem;
   width: 90%;
   height: 55vh;
   display: -webkit-box;
@@ -654,13 +656,10 @@ div.homepagebox #cardsBox #cardsBody {
 }
 
 div.homepagebox #cardsBox #cardsBody div {
-  width: 1500px;
+  width: 1300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -670,6 +669,7 @@ div.homepagebox #cardsBox #cardsBody div {
 }
 
 div.homepagebox #cardsBox #cardsBody div div.card {
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
   margin: 1rem;
   width: 400px;
@@ -762,7 +762,7 @@ div.homepagebox #Box {
     height: 100%;
   }
   #homepage #cardsBox {
-    height: 150vh;
+    height: 140vh;
   }
   #homepage #cardsBox #cardsHeader ul#cardsNavUl {
     display: -webkit-box;
@@ -801,6 +801,10 @@ div.homepagebox #Box {
   }
   #homepage #cardsBox p#FoodCardTitle {
     font-size: 20px;
+  }
+  #homepage #cardsBox.cardsBox {
+    margin-top: 0;
+    height: 150vh;
   }
   #homepage #Box {
     margin-top: 33rem;

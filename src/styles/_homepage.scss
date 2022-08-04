@@ -38,6 +38,8 @@ div.homepagebox {
     }
     #cardsBox {
         // background-color: red;
+        margin-top: 2.5rem;
+        margin-bottom: 10rem;
         width: 90%;
         height: 55vh;
         display: flex;
@@ -87,13 +89,14 @@ div.homepagebox {
             // background-color: rgb(62, 207, 207);
             div {
                 // background-color: green;
-                width: 1500px;
+                width: 1300px;
                 display: flex;
-                justify-content: center;
+                // justify-content: center;
                 align-items: center;
                 flex-wrap: wrap;
                 position: absolute;
                 div.card {
+                    background-color: rgba(0, 0, 0, 0);
                     cursor: pointer;
                     margin: 1rem;
                     width: 400px;
@@ -170,7 +173,7 @@ div.homepagebox {
         #cardsBox {
             // background-color: yellow;
             // margin-bottom: 45rem;
-            height: 150vh;
+            height: 140vh;
             #cardsHeader {
                 ul#cardsNavUl {
                     display: flex;
@@ -205,6 +208,11 @@ div.homepagebox {
             p#FoodCardTitle {
                 font-size: 20px;
             }
+        }
+        #cardsBox.cardsBox {
+            // background-color: red;
+            margin-top: 0;
+            height: 150vh;
         }
         #Box {
             margin-top: 33rem;
