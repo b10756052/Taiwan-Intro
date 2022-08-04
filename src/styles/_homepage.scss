@@ -41,7 +41,7 @@ div.homepagebox {
         margin-top: 2.5rem;
         margin-bottom: 10rem;
         width: 90%;
-        height: 55vh;
+        height: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -83,7 +83,7 @@ div.homepagebox {
         }
         #cardsBody {
             width: 100%;
-            height: 80vh;
+            // height: 30vh;
             display: flex;
             justify-content: center;
             position: relative;
