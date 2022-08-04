@@ -762,7 +762,7 @@ div.homepagebox #Box {
     height: 100%;
   }
   #homepage #cardsBox {
-    height: 160vh;
+    height: 150vh;
   }
   #homepage #cardsBox #cardsHeader ul#cardsNavUl {
     display: -webkit-box;
@@ -803,11 +803,11 @@ div.homepagebox #Box {
     font-size: 20px;
   }
   #homepage #cardsBox.cardsBox {
-    margin-top: 5rem;
+    margin-top: 40%;
     height: 150vh;
   }
   #homepage #Box {
-    margin-top: 43rem;
+    margin-top: 200%;
   }
 }
 /*# sourceMappingURL=style.css.map */
