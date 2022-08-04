@@ -652,7 +652,9 @@ div.homepagebox #cardsBox #cardsBody {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
+  position: absolute;
+  background-color: #3ecfcf;
+  margin-top: 2.5rem;
 }
 
 div.homepagebox #cardsBox #cardsBody div {
@@ -786,6 +788,7 @@ div.homepagebox #cardsBox.cardsBox {
             justify-content: center;
     padding: 0;
     margin: 0;
+    margin-top: 2.5rem;
   }
   #homepage #cardsBox #cardsBody div {
     -webkit-box-orient: vertical;
