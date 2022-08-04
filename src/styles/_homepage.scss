@@ -83,11 +83,10 @@ div.homepagebox {
         }
         #cardsBody {
             width: 100%;
-            // height: 30vh;
+            height: 100%;
             display: flex;
             justify-content: center;
             position: absolute;
-            background-color: rgb(62, 207, 207);
             margin-top: 2.5rem;
             div {
                 // background-color: green;
@@ -184,6 +183,7 @@ div.homepagebox {
                     // background-color: red;
                     margin: 0;
                     padding: 0;
+                    justify-content: space-between;
                     li {
                         padding: 0px;
                         button {
@@ -215,8 +215,8 @@ div.homepagebox {
             }
         }
         #cardsBox.cardsBox {
-            margin-top: 7rem;
-            height: 1100px;
+            margin-top: 5rem;
+            height: 1125px;
             margin-bottom: 65rem;
             float: none;
         }
