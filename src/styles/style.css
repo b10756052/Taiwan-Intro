@@ -743,8 +743,8 @@ div.homepagebox #cardsBox #cardsBody div div.card:hover .mask img {
   transition: all 0.35s ease-out;
 }
 
-div.homepagebox #Box {
-  margin: 15rem;
+div.homepagebox #cardsBox.cardsBox {
+  margin-bottom: 40rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -806,9 +806,7 @@ div.homepagebox #Box {
   #homepage #cardsBox.cardsBox {
     margin-top: 40%;
     height: 150vh;
-  }
-  #homepage #Box {
-    margin-top: 200%;
+    margin-bottom: 67rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

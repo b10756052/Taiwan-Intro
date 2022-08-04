@@ -697,8 +697,6 @@ const Homepage = ({
           </div>
         </div>
       </div>
-      {/* 解決跟footer色塊重疊問題 */}
-      <div id="Box" className="try"></div>
     </div>
   );
 };

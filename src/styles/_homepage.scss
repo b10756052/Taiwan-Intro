@@ -150,8 +150,8 @@ div.homepagebox {
             }
         }
     }
-    #Box {
-        margin: 15rem;
+    #cardsBox.cardsBox {
+        margin-bottom: 40rem;
     }
 }
 
@@ -213,9 +213,7 @@ div.homepagebox {
         #cardsBox.cardsBox {
             margin-top: 40%;
             height: 150vh;
-        }
-        #Box {
-            margin-top: 200%;
+            margin-bottom: 67rem;
         }
     }
 }
