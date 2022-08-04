@@ -803,11 +803,11 @@ div.homepagebox #Box {
     font-size: 20px;
   }
   #homepage #cardsBox.cardsBox {
-    margin-top: 0;
+    margin-top: 10rem;
     height: 150vh;
   }
   #homepage #Box {
-    margin-top: 40rem;
+    margin-top: 43rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
