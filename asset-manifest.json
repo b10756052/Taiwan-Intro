@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Taiwan-Intro/static/css/main.1e638926.css",
+    "main.css": "/Taiwan-Intro/static/css/main.7d157bb2.css",
     "main.js": "/Taiwan-Intro/static/js/main.69f4df43.js",
     "static/media/宜蘭.jpg": "/Taiwan-Intro/static/media/宜蘭.fdc713963439cf785112.jpg",
     "static/media/新竹.jpg": "/Taiwan-Intro/static/media/新竹.0e12d19bc79d54d64c8c.jpg",
@@ -36,11 +36,11 @@
     "static/media/南投.jfif": "/Taiwan-Intro/static/media/南投.62626f05bcf4ab40420d.jfif",
     "static/media/wrench.png": "/Taiwan-Intro/static/media/wrench.cbcd63f20f6e67559cf6.png",
     "index.html": "/Taiwan-Intro/index.html",
-    "main.1e638926.css.map": "/Taiwan-Intro/static/css/main.1e638926.css.map",
+    "main.7d157bb2.css.map": "/Taiwan-Intro/static/css/main.7d157bb2.css.map",
     "main.69f4df43.js.map": "/Taiwan-Intro/static/js/main.69f4df43.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e638926.css",
+    "static/css/main.7d157bb2.css",
     "static/js/main.69f4df43.js"
   ]
 }
