@@ -653,6 +653,7 @@ div.homepagebox #cardsBox #cardsBody {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 div.homepagebox #cardsBox #cardsBody div {
