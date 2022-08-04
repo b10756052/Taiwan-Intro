@@ -35,6 +35,17 @@ function App() {
           }
         />
         <Route
+          path="/Taiwan-Intro"
+          element={
+            <Homepage
+              keyWord={keyWord}
+              setKeyWord={setKeyWord}
+              foodkeyWord={foodkeyWord}
+              setFoodKeyWord={setFoodKeyWord}
+            />
+          }
+        />
+        <Route
           path="/play"
           element={
             <Play

@@ -540,6 +540,7 @@ div.homepagebox #FoodCardTitle {
 
 div.homepagebox #carouselExampleIndicators {
   margin-top: 4rem;
+  margin-bottom: 1.5rem;
   width: 60%;
   height: 23%;
 }
@@ -570,9 +571,8 @@ div.homepagebox #carouselExampleIndicators div.carousel-inner div.carousel-item 
 }
 
 div.homepagebox #cardsBox {
-  margin-top: 0px;
   width: 90%;
-  height: 65vh;
+  height: 55vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -643,20 +643,24 @@ div.homepagebox #cardsBox #cardsHeader #cardsNavUl li button.active {
 }
 
 div.homepagebox #cardsBox #cardsBody {
-  margin-left: 2.9rem;
   width: 100%;
   height: 80vh;
-  margin-left: 12rem;
-}
-
-div.homepagebox #cardsBox #cardsBody div {
-  width: 87.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.homepagebox #cardsBox #cardsBody div {
+  width: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -739,7 +743,7 @@ div.homepagebox #cardsBox #cardsBody div div.card:hover .mask img {
 }
 
 div.homepagebox #Box {
-  margin: 11rem;
+  margin: 15rem;
 }
 
 @media screen and (max-width: 1000px) {
